@@ -1,0 +1,53 @@
+*{
+    text-align: right;
+}
+
+body{
+    background-image: url(../Resources/www.jpg);
+    background-size: cover;
+
+}
+
+p{
+    color: #AA4139;
+    text-align: center;
+    /* border: 5px dashed purple; */
+    /* border: 5px solid rgb(255, 176, 170); */
+    /* Rojo, verde, Azúl, El último es transparencia */
+    border: 5px solid rgb(255, 176, 170, 0.5);
+    cursor: pointer;
+}
+
+p{
+    /* color : green !important; */
+    color : white;
+    line-height: 20px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 100%;
+    font-family: 'Poiret One', cursive;
+
+}
+
+img{
+    float: right;
+}
+
+footer{
+    clear: both;
+    text-align: center;
+}
+
+li{
+    list-style: none;
+    display: inline-block
+}
+
+.webtext :first-child{
+    border: 5px dashed green;
+}
+
+.active{
+    color: red;
+}
+
