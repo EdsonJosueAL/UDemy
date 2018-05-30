@@ -9,16 +9,16 @@
             "type": "chrome",
             "request": "attach",
             "name": "Attach to Chrome",
-            "port": 9222,
+            "port": 3000,
             "webRoot": "${workspaceFolder}"
         },
         {
             "type": "chrome",
             "request": "launch",
             "name": "Lanzar Chrome contra localhost",
-            "url": "http://localhost:8080",
+            "url": "http://localhost:3000",
             "webRoot": "${workspaceFolder}",
-            "file": "${workspaceFolder}/ES7 - ECMAScript7 y ES8 - ECMAScript8/index.html"
+            // "file": "${workspaceFolder}/robofriends/public/index.html"
         }
     ]
 }
