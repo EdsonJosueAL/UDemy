@@ -1,0 +1,34 @@
+﻿@model IEnumerable<WebAppMVC.Models.CARGOS>
+
+@{
+    ViewBag.Title = "ListadoMaestraCargos";
+}
+
+<h2>ListadoMaestraCargos</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Cargo)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @*@Html.DisplayFor(modelItem => item.Cargo)*@
+            @Html.ActionLink(item.Cargo, "UsuarioPorCargo", new { pvStrCargo = item.Cargo })
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.IDCargo }) |
+            @Html.ActionLink("Details", "Details", new { id=item.IDCargo }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.IDCargo })
+        </td>
+    </tr>
+}
+
+</table>

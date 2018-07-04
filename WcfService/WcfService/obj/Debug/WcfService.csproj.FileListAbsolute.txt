@@ -1,0 +1,7 @@
+C:\Users\defse\source\repos\WcfService\WcfService\bin\Debug\WcfService.dll.config
+C:\Users\defse\source\repos\WcfService\WcfService\bin\Debug\WcfService.dll
+C:\Users\defse\source\repos\WcfService\WcfService\bin\Debug\WcfService.pdb
+C:\Users\defse\source\repos\WcfService\WcfService\obj\Debug\WcfService.csprojResolveAssemblyReference.cache
+C:\Users\defse\source\repos\WcfService\WcfService\obj\Debug\WcfService.csproj.CoreCompileInputs.cache
+C:\Users\defse\source\repos\WcfService\WcfService\obj\Debug\WcfService.dll
+C:\Users\defse\source\repos\WcfService\WcfService\obj\Debug\WcfService.pdb
